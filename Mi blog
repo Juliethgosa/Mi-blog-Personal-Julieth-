@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: ##FFFFFF;
+            background-color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #bd1a7e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #bd1a7e;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #bd1a7e;
+        }
+        .cover-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-top: -75px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .entry {
+            margin-bottom: 40px;
+        }
+        .entry h2 {
+            color: #bd1a7e;
+        }
+        .entry p {
+            line-height: 1.6;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 32%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #bd1a7e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mi Blog Personal Julieth Gomez</h1>
+    </div>
+    <div class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre Mí</a>
+        <a href="#posts">Entradas</a>
+        <a href="#contact">Contacto</a>
+    </div>
+    <img src="images/cover.jpg" alt="Portada" class="cover-image">
+    <div class="container">
+        <img src="images/profile.jpg" alt="Perfil" class="profile-image">
+        <div class="entry" id="about">
+            <h2>¡Hola! Soy Julieth Gomez</h2>
+            <p>¡Hola! Quiero compartir contigo algo de mi vida, tengo 33 años y soy madre de un hijo maravilloso. Soy tecnóloga en sistemas mecatrónicos, un campo que me apasiona y que me permite combinar mi amor por la programación con el fascinante mundo de la tecnología.En mi tiempo libre, disfruto de una variedad de intereses que me mantienen equilibrada y feliz. Me encanta la música, que considero una fuente inagotable de inspiración y energía. También soy una gran fan del anime, que me permite explorar historias y mundos imaginativos que estimulan mi creatividad.El deporte es otra de mis pasiones, especialmente correr, que no solo me ayuda a mantenerme en forma, sino que también me brinda momentos de reflexión y serenidad. A pesar de mi discreción natural, siempre me esfuerzo por ser amable y estoy dispuesta a ayudar a los demás siempre que pueda. Valoro profundamente las conexiones humanas y creo firmemente en el poder de la empatía y la solidaridad.Estoy emocionada de compartir un poco sobre mí y estoy abierta a nuevas experiencias y conexiones que me permitan seguir creciendo tanto personal como profesionalmente.</p>
+            <div class="image-gallery">
+                <img src="images/software-engineering.jpg" alt="Ingeniería de Software">
+                <img src="images/data-analysis.jpg" alt="Análisis de Datos">
+                <img src="images/coding.jpg" alt="Programación">
+            </div>
+        </div>
+        <div class="entry" id="posts">
+            <h2>Entradas Recientes</h2>
+            <div class="entry">
+                <h3>Etapas de Desarrollo de Software</h3>
+                <p>El desarrollo de software generalmente se divide en varias etapas clave, cada una con sus propias actividades y objetivos. Las etapas comunes incluyen la planificación, el análisis de requisitos, el diseño, la implementación, las pruebas y el mantenimiento. Cada una de estas fases juega un papel crucial en el aseguramiento de la calidad del producto final.</p>
+                <img src="images/software-development.jpg" alt="Desarrollo de Software" style="width: 100%; border-radius: 8px;">
+            </div>
+            <div class="entry">
+                <h3>Características del Software</h3>
+                <p>Las características esenciales del software incluyen la funcionalidad, la confiabilidad, la usabilidad, el rendimiento y la mantenibilidad. Estas características determinan cómo el software cumple con los requisitos del usuario, su estabilidad en diferentes condiciones de operación, su facilidad de uso, su eficiencia y su capacidad para ser modificado o mejorado con el tiempo.</p>
+                <img src="images/software-characteristics.jpg" alt="Características del Software" style="width: 100%; border-radius: 8px;">
+            </div>
+            <div class="entry">
+                <h3>Metodologías de Desarrollo de Software</h3>
+                <p>Existen diversas metodologías para el desarrollo de software, incluyendo el modelo en cascada, el desarrollo ágil, Scrum, y DevOps, entre otros. Cada metodología tiene sus propias prácticas y enfoques para gestionar el ciclo de vida del software, desde la concepción hasta la entrega y mantenimiento. La elección de una metodología puede depender de las necesidades del proyecto y del equipo de desarrollo.</p>
+                <img src="images/software-methodologies.jpg" alt="Metodologías de Desarrollo" style="width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
